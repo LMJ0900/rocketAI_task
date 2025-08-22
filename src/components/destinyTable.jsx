@@ -13,7 +13,7 @@ export default function DestinyTable() {
                 {rowHeadData.map((col, idx) => (
                     <th
                         key={idx}
-                        className="w-[17.471vw] max-w-[76.8724px] border-r-[0.13vw] xs:border-r-[0.57px] border-borderColor last:border-r-black bg-tableBg">
+                        className="w-[17.471vw] max-w-[76.8724px] border-r-[0.13vw] xs:border-r-[0.57px] text-[5.5786vw] xs:text-[20.52px] border-borderColor last:border-r-black bg-tableBg">
                         {col}
                     </th>
                 ))}

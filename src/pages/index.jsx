@@ -36,7 +36,7 @@ export default function Home() {
             className="w-full h-auto"
           />
           <div className="absolute bottom-0 inset-0 flex items-center justify-center ">
-            <h2 className="text-[4.26vw]  font-normal text-mainTextColor text-center leading-[150%] pt-[6.13vw] xs:text-[18.74px] xs:pt-[23px]">
+            <h2 className="text-[4.26vw]  font-normal text-mainTextColor text-center leading-[150%] pt-[6.13vw] xs:text-[16px] xs:pt-[23px]">
               이제 본격적으로 <br /> OO님의 사주팔자를 <br /> 분석해볼 차례네요.
             </h2>
           </div>
