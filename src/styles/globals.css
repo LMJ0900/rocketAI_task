@@ -4,7 +4,34 @@
 
 :root {
   --background: #ffffff;
+  --tableBg: #F5F3EC ;
   --foreground: #171717;
+  --mainBgcolor: #F3F2EF;
+  --mainTextColor : #424242;
+  --insetColor : #2B557E;
+  --outlineColor : #1B2F49;
+  --TableComColor: #2f2f2f;
+  --TableComColor2: #D32F2F;
+  --TableComColor3: #18868C;
+  --borderColor:  #8A8A8A;
+  --borderColor2:  #9B9B9B;
+}
+
+@font-face {
+  font-family: 'mainTextFont';
+  src: url('/fonts/mainTextFont.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'subTextFont';
+  src: url('/fonts/subTextFont.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'tableFont';
+  src: url('/fonts/tableFont.otf') format('opentype');
+  font-weight: normal;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +44,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'mainTextFont', sans-serif;
 }
 
 @layer utilities {
