@@ -24,10 +24,10 @@ export default function Home() {
           className="object-cover"
           sizes="(max-width: 440px) 100vw, 440px"
         />
-        <div className="absolute top-[80%] inset-0 bg-gradient-to-t from-mainBgcolor to-transparent"></div>
+        <div className="absolute top-[90%] inset-0 bg-gradient-to-t from-mainBgcolor to-transparent"></div>
         <div className="absolute bottom-[70%] inset-0 bg-gradient-to-b from-black to-transparent"></div>
 
-        <div className="absolute flex items-center z-10 left-[6.4%] bottom-[-12.5%] w-[57.34%]">
+        <div className="absolute flex items-center z-10 left-[6.4%] bottom-[-15.5%] w-[57.34%]">
           <Image
             src="/images/speechBubble.png"
             alt="speechBubble"
@@ -51,7 +51,7 @@ export default function Home() {
           className="object-cover "
           sizes="(max-width: 440px) 100vw, 440px"
         />
-        <div className="absolute flex items-center z-10 left-[6.4%] bottom-[-28%] w-[68.095%]">
+        <div className="absolute flex items-center z-10 left-[6.4%] bottom-[-26.5%] w-[68.095%]">
           <Image
             src="/images/speechBubble2.png"
             alt="speechBubble2"
