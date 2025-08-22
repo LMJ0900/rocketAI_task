@@ -6,7 +6,7 @@ export default function Home() {
       <div className="relative w-full max-w-[440px] aspect-[375/652]">
         <div className="absolute top-0 flex flex-col items-center z-20 w-full mt-[clamp(0px,22.4%,98.56px)]">
           <div className="flex flex-col items-center w-[41.86vw] max-w-[184.184px] h-[5.33vw] max-h-[23.45px]">
-            <h2 className="text-[5.33vw] xs:text-[23px] leading-[100%] mb-[clamp(0px,3.2vw,14.08px)] font-subTextFont font-normal">제 1장</h2>
+            <h2 className="text-[5.33vw] xs:text-[23px] leading-[100%] mb-[clamp(0px,3.2vw,14.08px)] font-subTextFont text-white font-normal">제 1장</h2>
             <Image
               src="/images/textBr.png"
               alt="글자 분리선"
@@ -14,7 +14,7 @@ export default function Home() {
               height={300}
               quality={100}
               className="mb-[clamp(0px,3.2vw,14.08px)]"></Image>
-            <h2 className="text-[5.33vw] xs:text-[23px] leading-[100%] font-subTextFont font-normal">나의 사주 팔자</h2>
+            <h2 className="text-[5.33vw] xs:text-[23px] leading-[100%] font-subTextFont font-normal text-white">나의 사주 팔자</h2>
           </div>
         </div>
         <Image
